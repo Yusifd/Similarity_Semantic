@@ -10,8 +10,9 @@ The aim is to understand how well each model bridges linguistic gaps across **ti
 # 1️⃣ Install Required Libraries
 ```bash
 !pip install transformers datasets sentencepiece scikit-learn
-
+```
 # 2️⃣ Import Libraries
+
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 from sklearn.metrics import precision_score, recall_score, f1_score
 from sklearn.metrics.pairwise import cosine_similarity
